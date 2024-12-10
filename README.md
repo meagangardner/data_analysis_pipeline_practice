@@ -24,14 +24,17 @@ Activate the conda environment:
 conda activate da-pipeline-sh
 ```
 
-Run the analysis and render the report
+Navigate to the root of this project on your computer using the command line and enter the following command to reset the project to a clean state:
 
 ```
-bash runall.sh
+make clean
 ``````
 
-Render the report:
+To run the analysis, enter the following command in the terminal in the project root:
 
+```
+make all
+```
 
 ### Exercise:
 
